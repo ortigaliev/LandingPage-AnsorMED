@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Normalize and css style -->
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,67 +17,83 @@
 <body>
   <!-- Site-Header -->
   <header>
-    <div>
-      <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-      <nav>
-        <ul>
-          <li> <a href="index.html">Xizmatlar</a></li>
-          <li><a href="#">Dorilar</a></li>
-          <li><a href="#">Asal</a></li>
-          <li><a href="#">Kontaktlar</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
-      <a class="main-link" href="#">Qabulga yozilish</a>
+    <div class="site-header-container container">
+      <div class="header">
+        <a href="index.html"><img src="img/logo.svg" alt="logo" width="185" height="50"></a>
+        <nav class="sitenav">
+          <ul class="header-main-link">
+            <li class="sitenav-list" > <a class="sitenav-link" href="index.html">Xizmatlar</a></li>
+            <li class="sitenav-list"><a class="sitenav-link" href="#">Dorilar</a></li>
+            <li class="sitenav-list"><a class="sitenav-link" href="#">Asal</a></li>
+            <li class="sitenav-list"><a class="sitenav-link" href="#">Kontaktlar</a></li>
+            <li class="sitenav-list"><a class="sitenav-link" href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <a class="main-link header-button" href="#">Qabulga yozilish</a>
+      </div>
     </div>
   </header>
 
-  <!-- Site hero -->
   <main>
+    <!-- Site hero -->
     <section class="hero">
-      <div>
-        <div>
-          <h2>Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h2>
-          <p>Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
-          <a class="main-link" href="#">Qabulga yozilish</a>
-        </div>
 
-        <img src="img/hero-img.jpg" alt="main img" width="423" height="504" srcset="img/hero-img.jpg 1x, img/hero-img@2x.jpg 2x">
+      <div class="site-hero-container container">
+        <div class="hero-action">
+          <div class="hero-info">
+            <h2 class="hero-info-heading">Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h2>
+            <div class="hero-info-text">
+              <p>Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
+            </div>
+            <a class="hero-reg main-link" href="#">Qabulga yozilish</a>
+          </div>
+          <img class="hero-img" src="img/hero-img.png" alt="main img" width="423" height="504" srcset="img/hero-img.png 1x, img/hero-img@2x.png 2x">
+        </div>
       </div>
     </section>
 
     <!-- Site-service -->
     <section class="-site-service">
       <div>
-        <h2>Xizmatlar</h2>
-        <div class="service-type">
-          <!-- Hijoma turi -->
-          <img src="img/hijoma.jpg" alt="Hijoma" width="200" height="200" srcset="img/hijoma.jpg 1x, img/hijoma@2x.jpg.jpg 2x">
-          <div>
-            <h3>Hijoma</h3>
-            <p>Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
-          </div>
-          <!-- Manual terapiya turi -->
-          <img src="img/terapiya.jpg" alt="Manual terapiya" width="200" height="200" srcset="img/terapiya.jpg 1x, img/terapiya@2x.jpg 2x">
-          <div>
-            <h3>Manual terapiya</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
-          </div>
-          <!-- Zulik bilan davolash -->
-          <img src="img/zulik.jpg" alt="Zuluk bilan davolash" width="200" height="200" srcset="img/zulik.jpg 1x, img/zulik@2x.jpg 2x">
-          <div>
-            <h3>Zuluk bilan davolash</h3>
-            <p>Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.
-            </p>
-          </div>
-          <!-- Tabiiy dori vositalari -->
-          <img src="img/tabiy.jpg" alt="Tabiiy dori vositalari" width="200" height="200" srcset="img/tabiy.jpg 1x, img/tabiy@2x.jpg 2x" >
-          <div>
-            <h3>Tabiiy dori vositalari</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+        <h2 class="service-heading">Xizmatlar</h2>
+        <div class="site-service-container container-service">
+          <div class="service-type">
+            <!-- Hijoma turi -->
+            <div class="service-type-item">
+              <img src="img/hijoma.jpg" alt="Hijoma" width="200" height="200" srcset="img/hijoma.jpg 1x, img/hijoma@2x.jpg 2x">
+              <div>
+                <h3>Hijoma</h3>
+                <p>Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+              </div>
+            </div>
+            <!-- Manual terapiya turi -->
+            <div class="service-type-item">
+              <img src="img/terapiya.jpg" alt="Manual terapiya" width="200" height="200" srcset="img/terapiya.jpg 1x, img/terapiya@2x.jpg 2x">
+              <div>
+                <h3>Manual terapiya</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+              </div>
+            </div>
+            <!-- Zulik bilan davolash -->
+            <div class="service-type-item">
+              <img src="img/zuluk.jpg" alt="Zuluk bilan davolash" width="200" height="200" srcset="img/zuluk.jpg 1x, img/zuluk@2x.jpg 2x">
+              <div>
+                <h3>Zuluk bilan davolash</h3>
+                <p>Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.
+                </p>
+              </div>
+            </div>
+            <!-- Tabiiy dori vositalari -->
+            <div class="service-type-item">
+              <img src="img/tabiy.jpg" alt="Tabiiy dori vositalari" width="200" height="200" srcset="img/tabiy.jpg 1x, img/tabiy@2x.jpg 2x" >
+              <div>
+                <h3>Tabiiy dori vositalari</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <a class="main-link" href="">Qabulga yozilish</a>
+        <a class="service-register" href="">Qabulga yozilish</a>
       </div>
     </section>
   </main>
@@ -89,21 +105,21 @@
       <!-- footer-singin -->
       <div class="footer-singin">
         <h2>Qabulga ro’yxatdan o’ting</h2>
-        <a href="#">Qo’ng’iroq qilish</a>
-        <a href="#">Telegramdan yozish</a>
+        <a class="footer-signin-link" href="#">Qo’ng’iroq qilish</a>
+        <a class="footer-signin-link" href="#">Telegramdan yozish</a>
       </div>
     </div>
     <!-- footer-bottom-link -->
     <div class="footer-bottom">
       <div class="footer-link">
-        <a href="index.html"><img src="img/footer-logo.svg" alt="Logo-bottom"></a>
-        <nav>
-          <ul>
-            <li> <a href="index.html">Xizmatlar</a></li>
-            <li><a href="#">Dorilar</a></li>
-            <li><a href="#">Asal</a></li>
-            <li><a href="#">Kontaktlar</a></li>
-            <li><a href="#">Blog</a></li>
+        <a href="index.html"><img src="img/footer-logo.svg" alt="Logo-bottom" width="185" height="50"></a>
+        <nav class="nav-bottom">
+          <ul class="footer-action">
+            <li class="navbottom-list"><a class="navbottom-link" href="index.html">Xizmatlar</a></li>
+            <li class="navbottom-list"><a class="navbottom-link" href="#">Dorilar</a></li>
+            <li class="navbottom-list"><a class="navbottom-link" href="#">Asal</a></li>
+            <li class="navbottom-list"><a class="navbottom-link" href="#">Kontaktlar</a></li>
+            <li class="navbottom-list"><a class="navbottom-link" href="#">Blog</a></li>
           </ul>
         </nav>
       </div>

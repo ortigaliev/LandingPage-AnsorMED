@@ -1,0 +1,195 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-service{
+  width: 100px;
+  min-width: 865px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h2,h3{
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Site-header */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-main-link{
+  display: flex;
+
+}
+
+.sitenav{
+  width: 497px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.header-button{
+  margin-right: 146px;
+
+}
+.sitenav-list{
+  margin-right: 32px;
+  list-style: none;
+}
+
+.sitenav-list:last-child{
+  margin-right: 0;
+}
+
+.sitenav-link{
+  text-decoration: none;
+  color: #222;
+}
+
+
+
+.main-link{
+  text-decoration: none;
+  background-color: #DE2E54;;
+  color: #fff;
+  padding: 12px 24px;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+}
+
+/* HERO */
+.hero{
+  background-color: #0EB4C1;
+}
+
+.hero-action{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-info{
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+.hero-info-heading{
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin: 0;
+
+}
+
+.hero-info-text{
+  width: 440px;
+  padding-top: 16px;
+  padding-bottom: 36px;
+  margin: 0;
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+.hero-reg{
+font-weight: bold;
+font-size: 15px;
+line-height: 1.5;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-img{
+  padding-top: 30px;
+}
+
+
+/* Site-services */
+
+.service-heading{
+  width: 133px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-type-item{
+  width: 865px;
+  display: flex;
+}
+
+.service-register{
+  width: 190px;
+  text-decoration: none;
+  background-color: #DE2E54;;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer-signin */
+.footer-signin-link{
+  color: #fff;
+}
+
+
+/* Footer bottom link */
+
+.footer-link{
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+}
+
+.footer-top{
+  background-color: #0EB4C1;
+}
+
+.footer-action{
+  display: flex;
+  align-items: center;
+}
+
+.navbottom-list{
+  list-style: none;
+}
+
+.navbottom-list{
+  list-style: none;
+}
+
+.navbottom-link{
+  text-decoration: none;
+  color: #fff;
+}
