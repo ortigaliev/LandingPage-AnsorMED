@@ -48,19 +48,28 @@ h2,h3{
 
 .header-main-link{
   display: flex;
+  margin: 0;
+  padding: 0;
 
 }
 
+.header-button:hover{
+  background: #FFFFFF;
+  border: 2px solid #DE2E54;
+  color: #DE2E54;
+}
+
+.header-button:active{
+  background: #DE2E54;
+  opacity: 0.6;
+  color: #fff;
+}
+
 .sitenav{
-  width: 497px;
   margin-right: 0;
   margin-left: 0;
 }
 
-.header-button:hover{
-  c
-
-}
 .sitenav-list{
   margin-right: 32px;
   list-style: none;
@@ -71,6 +80,10 @@ h2,h3{
   line-height: 1.5;
   letter-spacing: 2px;
 
+}
+
+.logo-img{
+  display: block;
 }
 
 .logo-img:hover{
@@ -121,6 +134,7 @@ h2,h3{
   width: 500px;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 10px;
 
 }
 
@@ -172,10 +186,14 @@ h2,h3{
 
 /* Site-services */
 
+.site-service{
+  padding-top: 120px;
+}
+
 .service-heading{
   width: 133px;
   padding: 0;
-  padding-top: 120px;
+
   padding-bottom: 56px;
   margin: 0;
   margin-left: auto;
